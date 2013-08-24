@@ -5,8 +5,8 @@
 # Update and upgrade apt-get and 
 # install gcc, g++ and Make toolchain and compilers.
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install build-essential
+sudo apt-get -y upgrade
+sudo apt-get -y install build-essential
 
 #Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
